@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable=
+    R0801, # Similar lines in %s files
+    C0115, # missing class docs string
+    C0116, # missing method string
+    C0114, # missing docs string
+[BASIC]
+good-names=e, ac, db, dt, s3, id
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
